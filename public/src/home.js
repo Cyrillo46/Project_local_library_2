@@ -1,11 +1,15 @@
+function getTotal(items) {
+  const totalItems = items.length;
+  return totalItems;
+}
+
+
 function getTotalBooksCount(books) {
-  const totalBooks = books.length;
-  return totalBooks;
+  return getTotal(books)
 }
 
 function getTotalAccountsCount(accounts) {
-  const totalAccounts = accounts.length;
-  return totalAccounts;
+  return getTotal(accounts)
 }
 
 function getBooksBorrowedCount(books) {
